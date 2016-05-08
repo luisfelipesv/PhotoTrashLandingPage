@@ -1,0 +1,51 @@
+@media (min-width: 890px) {
+
+  .feature div:hover {
+    transform: scale(1.1);
+  }
+
+  .feature:hover p {
+    font-weight: 700;
+  }
+
+}
+
+@media (max-width: 889px) {
+
+  .container {
+    width: 90%;
+  }
+
+  .wrapper {
+    min-width: 320px;
+  }
+
+}
+
+@media (max-width: 720px) {
+
+  #grid {
+    justify-content: space-around;
+  }
+
+    .feature{
+      width: 40%;
+    }
+
+}
+
+@media (max-width: 540px) {
+
+  .wrapper {
+    min-width: 70%;
+  }
+
+    .container .info {
+      text-align: justify;
+    }
+
+    .feature{
+      width: 60%;
+    }
+
+}

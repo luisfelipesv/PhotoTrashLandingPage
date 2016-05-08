@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="300px" height="469px" viewBox="0 0 300 469" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>undoInstruction</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M202.970004,439.889874 C202.970004,436.626092 200.290376,433.980268 196.988835,433.980268 C193.691293,433.980268 191.021664,436.616092 191.009665,439.869875 L191.009665,435.74615 C191.009665,431.460436 187.420164,427.988667 182.992779,427.988667 C178.563394,427.988667 174.973893,431.460436 174.973893,435.74615 L174.973893,429.75255 C174.973893,425.468835 171.398389,421.997067 166.987002,421.997067 C162.573615,421.997067 158.998111,425.468835 158.998111,429.75255 L158.998111,385.127525 C158.998111,381.191787 155.872545,378 152.015081,378 C148.159617,378 145.034051,381.191787 145.034051,385.127525 L145.034051,410.40384 L145.034051,451.619092 C145.034051,452.941004 143.682239,454.012932 142.01647,454.012932 C140.348702,454.012932 138.996889,452.941004 138.996889,451.619092 L138.996889,431.972402 C134.579503,431.978401 131,435.460169 131,439.755883 L131.009999,466.284114 C131.035995,466.680088 131.003999,466.760083 131.003999,466.866076 C131.003999,475.707486 150.879239,490.510499 150.879239,498 L190.793695,498 C190.793695,489.638557 203,476.583428 203,464.008266 L203,447.815346 L202.970004,439.889874 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="4" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.582908741 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="4" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="6" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.179347826 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-4" y="-4" width="80" height="128">
+            <rect x="127" y="374" width="80" height="128" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+        <radialGradient cx="48.7618387%" cy="100%" fx="48.7618387%" fy="100%" r="85.0851559%" id="radialGradient-4">
+            <stop stop-color="#78909C" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Instructions" transform="translate(-829.000000, -640.000000)">
+            <g id="undoInstruction" transform="translate(829.000000, 595.000000)">
+                <g id="undoButton" transform="translate(100.000000, 328.000000)">
+                    <circle id="Oval-36" fill="#78909C" cx="50" cy="50" r="50"></circle>
+                    <g transform="translate(24.000000, 25.000000)" id="Shape-Copy-2" fill="#FFFFFF">
+                        <path d="M34.4640784,47.1682554 C44.2153448,46.4916418 51.8194444,38.4381934 51.8194444,28.4788432 C51.8194444,23.4827252 49.9506944,18.6947787 46.4208333,15.1558618 C43.2055413,11.9323209 38.9565705,10.0905542 34.458555,9.787891 C34.3190312,9.75872205 34.1743644,9.74340062 34.0260824,9.74340062 L7.5976182,9.74340062 L13.3845112,3.95650758 C14.1996266,3.14139219 14.2000531,1.82289613 13.3870925,1.00993553 C12.5684641,0.19130711 11.2549067,0.198130602 10.4405205,1.01251681 L1.25031954,10.2027177 C1.14743382,10.2736217 1.0495131,10.354833 0.957996462,10.4463496 C0.521603199,10.8827429 0.319729246,11.4597299 0.349685729,12.026739 C0.364089328,12.5395821 0.566941901,13.0477731 0.95809844,13.4389296 C1.04999706,13.5308282 1.14813285,13.6123244 1.25109944,13.6834434 L10.4374035,22.8697474 C11.2522945,23.6846385 12.5706091,23.6848834 13.3835697,22.8719228 C14.2021981,22.0532944 14.1955563,20.7399187 13.3813942,19.9257566 L7.36246988,13.9068323 L33.2222222,13.9068323 C37.1309403,13.9291534 40.6291358,15.3846925 43.5138889,18.070264 C46.2131944,20.7764946 47.6666667,24.5235831 47.6666667,28.4788432 C47.6666667,36.567342 41.2776482,43.002832 33.2222222,43.0505865 L6.41836209,43.050854 C5.26717206,43.050854 4.33333333,43.98287 4.33333333,45.1325699 C4.33333333,46.2902853 5.2668325,47.2142857 6.41836209,47.2142857 L34.0260824,47.2142857 C34.1763134,47.2142857 34.3228429,47.1984131 34.4640784,47.1682554 Z"></path>
+                    </g>
+                </g>
+                <g id="1-finger">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFCC22" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use stroke="#000000" mask="url(#mask-3)" stroke-width="8" xlink:href="#path-1"></use>
+                </g>
+                <path d="M281.25,262.5 C281.25,272.85 272.85,281.25 262.5,281.25 L214.05,281.25 L144.975,211.265625 L225,131.240625 L281.25,187.490625 L281.25,262.5 L281.25,262.5 Z M37.5,281.25 C27.15,281.25 18.75,272.85 18.75,262.5 L18.75,253.696875 L93.234375,186.984375 L187.509375,281.25 L37.5,281.25 L37.5,281.25 Z M75,37.5 C95.709375,37.5 112.5,54.290625 112.5,75 C112.5,95.709375 95.709375,112.5 75,112.5 C54.290625,112.5 37.5,95.709375 37.5,75 C37.5,54.290625 54.290625,37.5 75,37.5 L75,37.5 L75,37.5 Z M262.5,0 L37.5,0 C16.790625,0 0,16.790625 0,37.5 L0,262.5 C0,283.209375 16.790625,300 37.5,300 L262.5,300 C283.209375,300 300,283.209375 300,262.5 L300,37.5 C300,16.790625 283.209375,0 262.5,0 L262.5,0 L262.5,0 Z M93.75,75 C93.75,64.65 85.35,56.25 75,56.25 C64.65,56.25 56.25,64.65 56.25,75 C56.25,85.35 64.65,93.75 75,93.75 C85.35,93.75 93.75,85.35 93.75,75 Z" id="image-picture-copy" fill="url(#radialGradient-4)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

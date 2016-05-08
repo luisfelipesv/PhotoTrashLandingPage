@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="240px" height="292px" viewBox="0 0 240 292" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>shareInstruction</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="40.2234637" cy="40.2985075" rx="40.2234637" ry="40.2985075"></ellipse>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="80.4469274" height="80.5970149" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <ellipse id="path-3" cx="40.2234637" cy="40.2985075" rx="26.8156425" ry="26.8656716"></ellipse>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="53.6312849" height="53.7313433" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <path d="M108.563134,127.159732 L108.563134,116.717741 C108.563134,112.333556 104.970337,108.779464 100.543689,108.779464 C96.1224039,108.779464 92.5430127,112.320124 92.5269256,116.690877 L92.5269256,111.151545 C92.5269256,105.394615 87.7141862,100.731046 81.7780274,100.731046 C75.8391874,100.731046 71.0264481,105.394615 71.0264481,111.151545 L71.0264481,103.10044 C71.0264481,97.3461968 66.232477,92.6826271 60.3177678,92.6826271 C54.4003774,92.6826271 49.6064063,97.3461968 49.6064063,103.10044 L49.6064063,43.1563766 C49.6064063,37.8695649 45.4157034,33.5820896 40.2436843,33.5820896 C35.0743464,33.5820896 30.8836436,37.8695649 30.8836436,43.1563766 L30.8836436,77.1096355 L30.8836436,77.120381 L30.8836436,132.473407 C30.8836436,134.24911 29.0711579,135.689014 26.8377251,135.689014 C24.601611,135.689014 22.7891253,134.24911 22.7891253,132.473407 L22.7891253,106.082331 C16.8663725,106.09039 12.0670391,110.767392 12.0670391,116.537753 L12.0804451,152.172691 C12.0804451,152.309697 12.1179818,152.435957 12.1233441,152.56759 C12.1153006,152.704596 12.0724015,152.812051 12.0724015,152.95443 C12.0724015,164.830952 38.7207674,184.715596 38.7207674,194.776119 L92.2373569,194.776119 C92.2373569,183.544331 108.603352,166.00759 108.603352,149.115581 L108.603352,127.363897 C108.603352,127.363897 108.592627,127.283305 108.563134,127.159732 L108.563134,127.159732 Z" id="path-5"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-6">
+            <feMorphology radius="5.37313433" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.582908741 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="5.37313433" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="8" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="5.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.179347826 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <mask id="mask-7" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-5.37313433" y="-5.37313433" width="107.282582" height="171.940299">
+            <rect x="6.69390478" y="28.2089552" width="107.282582" height="171.940299" fill="white"></rect>
+            <use xlink:href="#path-5" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Instructions" transform="translate(-952.000000, -180.000000)">
+            <g id="shareInstruction" transform="translate(952.000000, 180.000000)">
+                <g id="image-picture-+-Oval-1-+-Oval-1-Copy-+-1-finger">
+                    <path d="M224.213372,209.656235 C224.213372,217.922681 217.516866,224.63168 209.265814,224.63168 L170.641323,224.63168 L115.574519,168.735831 L179.370697,104.82063 L224.213372,149.746966 L224.213372,209.656235 L224.213372,209.656235 Z M29.8951162,224.63168 C21.6440642,224.63168 14.9475581,217.922681 14.9475581,209.656235 L14.9475581,202.625263 L74.3267327,149.342629 L149.483055,224.63168 L29.8951162,224.63168 L29.8951162,224.63168 Z M59.7902325,29.9508907 C76.2998104,29.9508907 89.6853487,43.361402 89.6853487,59.9017814 C89.6853487,76.4421608 76.2998104,89.8526721 59.7902325,89.8526721 C43.2806545,89.8526721 29.8951162,76.4421608 29.8951162,59.9017814 C29.8951162,43.361402 43.2806545,29.9508907 59.7902325,29.9508907 L59.7902325,29.9508907 L59.7902325,29.9508907 Z M209.265814,0 L29.8951162,0 C13.3855383,0 0,13.4105113 0,29.9508907 L0,209.656235 C0,226.196614 13.3855383,239.607126 29.8951162,239.607126 L209.265814,239.607126 C225.775392,239.607126 239.16093,226.196614 239.16093,209.656235 L239.16093,29.9508907 C239.16093,13.4105113 225.775392,0 209.265814,0 L209.265814,0 L209.265814,0 Z M59.7902325,74.8772268 C68.0412846,74.8772268 74.7377906,68.1682273 74.7377906,59.9017814 C74.7377906,51.6353356 68.0412846,44.9263361 59.7902325,44.9263361 C51.5391804,44.9263361 44.8426744,51.6353356 44.8426744,59.9017814 C44.8426744,68.1682273 51.5391804,74.8772268 59.7902325,74.8772268 L59.7902325,74.8772268 L59.7902325,74.8772268 Z" id="image-picture" fill="#78909C"></path>
+                    <g id="Oval-1-+-Oval-1-Copy-+-1-finger" transform="translate(65.698324, 75.223881)">
+                        <use id="Oval-1" stroke="#000000" mask="url(#mask-2)" stroke-width="8.05970149" xlink:href="#path-1"></use>
+                        <use id="Oval-1-Copy" stroke="#000000" mask="url(#mask-4)" stroke-width="8.05970149" xlink:href="#path-3"></use>
+                        <g id="1-finger">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                            <use fill="#FFCC22" fill-rule="evenodd" xlink:href="#path-5"></use>
+                            <use stroke="#000000" mask="url(#mask-7)" stroke-width="10.7462687" xlink:href="#path-5"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
